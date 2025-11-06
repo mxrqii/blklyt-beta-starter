@@ -1,0 +1,30 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ring: rgba(187,153,255,.45);
+}
+
+html, body { height: 100%; }
+body {
+  @apply bg-ink text-text;
+  background-image: radial-gradient(1200px 600px at 80% -10%, rgba(187,153,255,.08), transparent 60%);
+  font-feature-settings: "ss01" 1;
+}
+a { @apply text-brand; }
+a:hover { text-decoration: underline; }
+
+/* Card utility */
+.card {
+  @apply bg-elev border border-[rgba(187,153,255,.12)] rounded-2xl shadow-soft;
+}
+.btn {
+  @apply inline-flex items-center gap-2 border border-[rgba(187,153,255,.35)] bg-[rgba(187,153,255,.08)] px-4 py-2 rounded-xl shadow transition;
+}
+.btn:hover {
+  @apply -translate-y-px;
+  box-shadow: 0 12px 24px rgba(187,153,255,.15);
+  border-color: theme('colors.brand');
+}

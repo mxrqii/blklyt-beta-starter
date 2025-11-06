@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2025-11-20",
+    "venue": "Rise Rooftop",
+    "city": "Houston, TX",
+    "notes": "Playback + MD set",
+    "ticketUrl": "https://example.com/tickets/rise"
+  },
+  {
+    "date": "2025-12-05",
+    "venue": "Axelrad",
+    "city": "Houston, TX",
+    "notes": "Live band \u2014 HBRDSHRY drop",
+    "ticketUrl": "https://example.com/tickets/axelrad"
+  }
+]
